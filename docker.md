@@ -12,3 +12,4 @@ docker run -d alpine tail -f /dev/null -> runs the image in a container in detac
 docker exec -it <container-id-or-name> sh -> runs the image in interactive mode after the container was created in detached mode.
 docker stop <container-id> -> stops the running container
 docker rm <container-id> -> deletes the running container
+docker run -p 8080:8080 <image-name>
