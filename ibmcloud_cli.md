@@ -1,4 +1,4 @@
-ibmcloud cli commands
+*ibmcloud cli commands
 
 ibmcloud login --apikey <your-api-key>
 
