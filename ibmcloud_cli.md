@@ -1,13 +1,21 @@
 ibmcloud cli commands
 
 ibmcloud login --apikey <your-api-key>
+
 ibmcloud login --sso
+
 ibmcloud target
+
 ibmcloud resource groups -> get all the resource groups
+
 ibmcloud resource group-create <resource-group-name> -> Create resource group
+
 ibmcloud resource group-delete <resource-group-name> -f   -> Deletes resource group
+
 ibmcloud resource service-instances -> get all the resources
+
 ibmcloud plugin repo-plugins -r 'IBM Cloud'
+
 
 
 CLI plugin management - 
